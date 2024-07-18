@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #0d0c0c; 
-    color: #000
+    color: #fff
 }
 
 header, section, footer {
@@ -18,6 +18,7 @@ header, section, footer {
 header h1 {
     margin: 0;
     font-size: 2.5em;
+    color: #004d4d
 }
 
 header p {
@@ -34,7 +35,7 @@ header p {
 }
 
 #introduction h2 {
-    color: #000; 
+    color: #004d4d; 
     font-size: 1.8em;
     margin-top: 0;
 }

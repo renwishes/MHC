@@ -11,7 +11,7 @@ header, section, footer {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: #004d4d;
     border-radius: 10px;
 }
 

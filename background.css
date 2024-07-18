@@ -1,12 +1,11 @@
-/* styles.css */
 
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #000; /* Black background */
-    color: #f4f4f4; /* Light gray text color */
+    background-color: #000; 
+    color: #f4f4f4; 
 }
 
 header {
@@ -30,12 +29,12 @@ header p {
     padding: 20px;
     margin: 20px auto;
     max-width: 800px;
-    background-color: #333; /* Dark gray background for contrast */
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Lighter shadow for better visibility */
+    background-color: #333; 
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); 
 }
 
 #introduction h2 {
-    color: #00cccc; /* Lighter shade for headings */
+    color: #00cccc; 
     font-size: 1.8em;
     margin-top: 0;
 }

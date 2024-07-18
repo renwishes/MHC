@@ -9,7 +9,7 @@ header, section, footer {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: rgba(0, 128, 0, 0.5); /* Changed to green with transparency */
+    background-color: rgba(0, 128, 0, 0.5); /* Green with transparency */
     border-radius: 10px;
 }
 

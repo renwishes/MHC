@@ -8,11 +8,12 @@ body {
     color: #f4f4f4; 
 }
 
-header {
-    background-color: #006666;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
+header, section, footer {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
 }
 
 header h1 {

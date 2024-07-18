@@ -1,11 +1,8 @@
-
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #000; 
-    color: #f4f4f4; 
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
 }
 
 header, section, footer {
@@ -16,55 +13,50 @@ header, section, footer {
     border-radius: 10px;
 }
 
-header h1 {
-    margin: 0;
-    font-size: 2.5em;
+header {
+    margin-bottom: 40px;
 }
 
-header p {
-    margin: 0;
-    font-size: 1.2em;
+section {
+    margin-bottom: 60px;
 }
 
-#introduction {
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 800px;
-    background-color: #333; 
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); 
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #00796b;
+    color: white;
+    border-radius: 0 0 10px 10px;
 }
 
-#introduction h2 {
-    color: #00cccc; 
-    font-size: 1.8em;
-    margin-top: 0;
+h1, h2 {
+    color: #00bcd4;
 }
 
-#introduction p {
-    font-size: 1.1em;
-    margin-bottom: 10px;
+ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-#introduction ul {
-    list-style-type: square;
-    padding-left: 20px;
+li {
+    margin: 10px 0;
 }
 
-#introduction ul li {
-    margin-bottom: 10px;
-    font-size: 1.1em;
+a {
+    color: #00bcd4;
+    text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
+#more-info ul {
+    padding: 0;
+    text-align: left;
+}
 
 #more-info li {
     margin: 10px 0;
-}
-footer {
-    text-align: center;
-    padding: 10px 0;
-    background-color: #004d4d;
-    color: white;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
 }
